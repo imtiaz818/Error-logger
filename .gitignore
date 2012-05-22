@@ -33,6 +33,7 @@ public class Error {
       logger.log(Level.WARNING,"test error message");
       logger.log(Level.INFO,"this applicaiton is about to be closed");
       logger.log(Level.FINEST, "Third example of error");
+      logger.log(Level.CONFIG,"Configuration message");
 
     } catch (SecurityException e) {
       e.printStackTrace();
