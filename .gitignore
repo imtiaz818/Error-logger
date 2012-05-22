@@ -15,8 +15,11 @@ import java.util.logging.SimpleFormatter;
 public class Error {
 
   public static void main(String[] args) {
-
+    
+    //Creating the logger
     Logger logger = Logger.getLogger("Error logger");
+
+    //Creating the file handler which will be used to record to a text file
     FileHandler fh;
 
     try {
